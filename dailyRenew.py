@@ -1,4 +1,3 @@
 import fireWhale
 
-def renueva(servidor): 
-    fireWhale.editaDato("quota", servidor, "segundos", 1500)
+fireWhale.editaDato("quota", 'iri', "segundos", 1500)
