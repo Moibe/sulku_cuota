@@ -7,7 +7,7 @@ cd sulku_cuota
 source venv/bin/activate
 
 # Ejecutar el script y capturar su salida
-quota_update=$(python updateQuota.py)
+quota_update=$(python runRenew.py)
 
 timestamp=$(date +"%d-%m-%Y %H:%M:%S")
 
