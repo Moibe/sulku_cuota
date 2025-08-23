@@ -2,8 +2,8 @@
 
 # Reiniciando proceso
 cd
-cd code/
-cd sulku-quota
+cd code
+cd sulku_cuota
 source venv/bin/activate
 
 # Ejecutar el script y capturar su salida

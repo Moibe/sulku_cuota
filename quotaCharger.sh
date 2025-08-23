@@ -2,7 +2,7 @@
 
 # Reiniciando proceso
 cd
-cd chips/
+cd chips
 source venv/bin/activate
 cd sulku-quota
 
