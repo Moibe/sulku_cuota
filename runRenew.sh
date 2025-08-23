@@ -2,9 +2,9 @@
 
 # Reiniciando proceso
 cd
-cd code/sulku_cuota
-source venv/bin/activate
+cd code
 cd sulku_cuota
+source venv/bin/activate
 
 # Ejecutar el script y capturar su salida
 quota_update=$(python updateQuota.py)
