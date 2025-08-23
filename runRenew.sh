@@ -1,10 +1,7 @@
 #!/bin/bash
 
 # Reiniciando proceso
-cd
-cd code
-cd sulku_cuota
-source venv/bin/activate
+source /root/code/sulku_cuota/venv/bin/activate
 
 # Ejecutar el script y capturar su salida
 quota_update=$(python dailyRenew.py)
