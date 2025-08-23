@@ -2,7 +2,7 @@
 
 # Reiniciando proceso
 cd
-cd code/
+cd code/sulku_cuota
 source venv/bin/activate
 cd sulku_cuota
 
