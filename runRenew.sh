@@ -15,7 +15,7 @@ fi
 # Ejecutar el script y capturar su salida
 quota_update=$(python dailyRenew.py "$1")
 
-timestamp=$(date +"%d-%m-%Y %H:%M:%S")
+timestamp=$(TZ='America/Mexico_City' date +"%d-%m-%Y %H:%M:%S")
 
 # Guardar todo en una sola línea en el log
 echo "$timestamp - $quota_update"
