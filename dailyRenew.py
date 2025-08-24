@@ -1,5 +1,5 @@
-import fireWhale
 import sys 
+import fireWhale
 
 # Check if a parameter was provided
 if len(sys.argv) > 1:
@@ -8,5 +8,5 @@ if len(sys.argv) > 1:
     print(f"Parámetro recibido: {parametro}")
 
 
-fireWhale.editaDato("quota", 'iri', "segundos", 1500)
-print("Servidor Iri actualizado.")
+fireWhale.editaDato("quota", parametro, "segundos", 1500)
+print(f"Servidor {parametro} actualizado.")
