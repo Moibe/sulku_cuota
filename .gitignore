@@ -1,5 +1,6 @@
 /venv/
 config.json
+config_flux.json
 /__pycache__/
 /logs/
 deploy.log
