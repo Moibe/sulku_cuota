@@ -9,5 +9,5 @@ if parametro == 'irina':
 else: 
     segundos = 1500
 
-fireWhale.editaDato("power", parametro, "segundos", 1500)
+fireWhale.editaDato("power", parametro, "segundos", segundos)
 print(f"Servidor {parametro} actualizado.")
