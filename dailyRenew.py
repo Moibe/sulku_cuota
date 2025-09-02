@@ -5,7 +5,7 @@ if len(sys.argv) > 1:
     parametro = sys.argv[1]
 
 if parametro == 'irina':
-    segundos = 240
+    segundos = 210
 else: 
     segundos = 1500
 
